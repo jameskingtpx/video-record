@@ -65,6 +65,7 @@ async function initVideo() {
     this.startBtn.addEventListener('click', () => {
         this.startBtn.disabled = true
         this.startBtn.ariaDisabled = 'true'
+        this.startBtn.style = 'display: none;'
         this.statusTag.textContent = `Recording... ${this.maximumRecordingTime / 1000}s remaining`
         this.statusTag.style.display = 'flex'
         this.statusTag.ariaLive = 'polite'
