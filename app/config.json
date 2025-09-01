@@ -1,5 +1,5 @@
 {
-  "serviceName": "Service name goes here",
+  "serviceName": "Video test",
   "plugins": {
     "govuk-frontend": {
       "rebrand": true
