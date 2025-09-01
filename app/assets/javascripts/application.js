@@ -149,9 +149,6 @@ async function uploadFile({ url, data }) {
 }
 
 async function uploadAndRekognition(videoClip, screenShot) {
-
-
-
     return { status: 'ERROR', message: 'Unable to verify photo or video' }
 }
 

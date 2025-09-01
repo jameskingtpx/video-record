@@ -4,6 +4,7 @@
 
 .videoRecorder__video {
   max-width: 100%;
+  transform: scaleX(-1);
 }
 
 #statusTag {
